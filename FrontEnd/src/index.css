@@ -1,0 +1,27 @@
+/* src/index.css */
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Jomhuria&family=Salsa&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your additional styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.fade-anim img{
+  animation: fadeAnim 0.5s
+  ease-out;
+}
+@keyframes fadeAnim{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity: 1;
+  }
+}
